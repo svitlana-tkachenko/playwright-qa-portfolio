@@ -1,0 +1,19 @@
+{
+  "name": "playwright-qa-portfolio",
+  "version": "1.0.0",
+  "description": "Playwright test automation portfolio — E2E tests with Page Object Model, CI/CD via GitHub Actions",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:inventory": "npx playwright test tests/inventory.spec.ts",
+    "test:cart": "npx playwright test tests/cart.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
