@@ -9,7 +9,7 @@ export default defineConfig({
   reporter: [['html'], ['list']],
 
   use: {
-    baseURL: 'https://saucedemo.com',
+    baseURL: 'https://www.saucedemo.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     headless: true,

@@ -16,7 +16,7 @@ test.describe('Login', () => {
     await loginPage.goto();
     await loginPage.login(USERS.standard.username, USERS.standard.password);
 
-    await expect(page).toHaveURL(new RegExp(URLS.inventory));
+    await expect(page).toHaveURL(/inventory.html/);
     await expect(page.locator('.inventory_list')).toBeVisible();
   });
 
