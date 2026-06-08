@@ -90,5 +90,4 @@ npm run test:report
 
 ## About
 
-Built by [Svitlana Tkachenko](https://linkedin.com/in/svtkachenko) — QA Engineer with 7+ years across SaaS, mobile, and AI systems.  
-Part of an ongoing effort to document hands-on automation work publicly.
+Built by [Svitlana Tkachenko](https://linkedin.com/in/svtkachenko) 
